@@ -2,4 +2,5 @@ datasets/natural_images.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.h5py filter=lfs diff=lfs merge=lfs -text
+*.h5py.* filter=lfs diff=lfs merge=lfs -text
 datasets/landscapes.zip filter=lfs diff=lfs merge=lfs -text
